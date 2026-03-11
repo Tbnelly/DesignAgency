@@ -4,7 +4,7 @@ import ServiceCard from '../components/ServiceCard';
 
 function Services() {
   return (
-    <section id="services" style={{ background: '#fafafa', padding: '80px 32px' }}>
+    <section id="services" style={{ background: '#fff', padding: '80px 32px' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <Label>WHAT WE DO</Label>
         <h2
@@ -26,6 +26,7 @@ function Services() {
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
             gap: 22,
+            marginTop: 44,
           }}
         >
           {SERVICES.map((svc, i) => (
