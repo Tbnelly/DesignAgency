@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+@keyframes floatA {
+  0%,  100% { transform: rotate(45deg) translateY(0);     }
+  50%        { transform: rotate(45deg) translateY(-11px); }
+}
+
+@keyframes floatB {
+  0%,  100% { transform: rotate(45deg) translateY(0);    }
+  50%        { transform: rotate(45deg) translateY(9px);  }
+}
+
+/* hide scrollbar on testimonials strip */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
