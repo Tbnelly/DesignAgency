@@ -11,7 +11,7 @@ function PortfolioCard({ item }) {
       style={{
         borderRadius: 16,
         overflow: 'hidden',
-        border: '1px solid #eee',
+        border: 'none',
         cursor: 'pointer',
         transform: hovered ? 'scale(1.02)' : 'scale(1)',
         boxShadow: hovered
@@ -20,7 +20,7 @@ function PortfolioCard({ item }) {
         transition: 'transform 0.25s ease, box-shadow 0.25s ease',
       }}
     >
-      <div style={{ height: 220, overflow: 'hidden' }}>
+      <div style={{ height: 320, overflow: 'hidden' }}>
         <img
           src={item.img}
           alt={item.title}

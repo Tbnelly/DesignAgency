@@ -9,6 +9,7 @@ function LogoStrip() {
         height: 120,
         display: "flex",
         alignItems: "center",
+        
       }}
     >
       <div
@@ -25,18 +26,16 @@ function LogoStrip() {
         }}
       >
         {LOGOS.map((logo) => (
-          <span
-            key={logo.name}
+          <img
+            key={logo.img}
+            src={logo.img}
+            alt="logo"
             style={{
-              fontWeight: 700,
-              fontSize: 16,
-              color: logo.color,
+              height: 20,
               opacity: 0.75,
-              letterSpacing: 0.5,
+              objectFit: "contain",
             }}
-          >
-            {logo.name}
-          </span>
+          />
         ))}
       </div>
     </section>

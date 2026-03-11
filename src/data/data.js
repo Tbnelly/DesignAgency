@@ -23,20 +23,18 @@ export const STATS_SM = [
 ];
 
 export const STATS_LG = [
-  { icon: '📁', label: 'Completed Projects',    val: '1400+' },
-  { icon: '😊', label: 'Customer Satisfaction', val: '100%'  },
-  { icon: '💰', label: 'Raised by Clients',     val: '$50M'  },
-  { icon: '📅', label: 'Years in Business',     val: '21yrs' },
+  { icon: '/images/completed.png',     val: '100 +',  label: 'Completed Projects'    },
+  { icon: '/images/rating.png',  val: '20 %',   label: 'Customer Satisfaction' },
+  { icon: '/images/raise.png',        val: '$10M',   label: 'Raised by Clients'     },
+  { icon: '/images/years.png',         val: '2 yrs',  label: 'Years in Business'     },
 ];
 
 // ── Services ──────────────────────────────────────────────────
 export const SERVICES = [
-  { title: 'Grow Your Business',     desc: 'We help identify the best ways to improve your business.' },
-  { title: 'Improve Brand Loyalty',  desc: 'We help identify the best ways to improve your business.' },
-  { title: 'Improve Business Model', desc: 'We help identify the best ways to improve your business.' },
-  { title: 'Digital Strategy',       desc: 'We help identify the best ways to improve your business.' },
-  { title: 'Web Development',        desc: 'We help identify the best ways to improve your business.' },
-  { title: 'Team Building',          desc: 'We help identify the best ways to improve your business.' },
+  { icon: '/images/Activity.png', title: 'Grow Your Business',     desc: 'We help identify the best ways to improve your business.' },
+  { icon: '/images/Heart.png', title: 'Improve Brand Loyalty',  desc: 'We help identify the best ways to improve your business.' },
+  { icon: '/images/Work.png', title: 'Improve Business Model', desc: 'We help identify the best ways to improve your business.' },
+ 
 ];
 
 // ── Portfolio ─────────────────────────────────────────────────
@@ -44,22 +42,22 @@ export const PORTFOLIO = [
   {
     title: 'Digital Marketing Agency Website',
     desc:  'A website for a client who wants to achieve their goals and meet their users needs while increasing their reach across all platforms.',
-    img:   'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80',
+    img:   '/images/Screenshot1.png',
   },
   {
     title: 'Digital Marketing Agency Website',
     desc:  'A website for a client who wants to achieve their goals and meet their users needs while increasing their reach across all platforms.',
-    img:   'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80',
+    img:   '/images/Screenshot2.png',
   },
   {
     title: 'Digital Marketing Agency Website',
     desc:  'A website for a client who wants to achieve their goals and meet their users needs while increasing their reach across all platforms.',
-    img:   'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80',
+    img:   '/images/Screenshot3.png',
   },
   {
     title: 'Digital Marketing Agency Website',
     desc:  'A website for a client who wants to achieve their goals and meet their users needs while increasing their reach across all platforms.',
-    img:   'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80',
+    img:   '/images/Screenshot4.png',
   },
 ];
 
@@ -87,9 +85,9 @@ export const TESTIMONIALS = [
 
 // ── Brand logos ───────────────────────────────────────────────
 export const LOGOS = [
-  { name: 'Google',  color: '#4285F4' },
-  { name: 'Trello',  color: '#0052CC' },
-  { name: 'monday',  color: '#E44132' },
-  { name: 'Notion',  color: '#000'    },
-  { name: 'slack',   color: '#4A154B' },
+  { name: 'Google',  color: '#4285F4', img: '/images/Google.png' },
+  { name: 'Trello',  color: '#0052CC', img: '/images/Trello.png' },
+  { name: 'monday',  color: '#E44132', img: '/images/Monday.png' },
+  { name: 'Notion',  color: '#000',    img: '/images/Notion.png' },
+  { name: 'slack',   color: '#4A154B', img: '/images/Slack.png' },
 ];
